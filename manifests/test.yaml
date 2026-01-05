@@ -23,7 +23,7 @@ metadata:
   name: nginx-deployment-1
   namespace: eks-test
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: nginx
